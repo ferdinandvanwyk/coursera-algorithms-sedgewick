@@ -11,6 +11,11 @@ public class PercolationStats {
 
         this.n = n;
         this.trials = trials;
+
+        if (n <=0 || trials <= 0) {
+            throw new java.lang.IllegalArgumentException();
+        }
+
         results = new double[trials];
 
         for (int i=0; i<trials; i++) {
