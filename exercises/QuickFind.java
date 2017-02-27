@@ -1,6 +1,7 @@
 public class QuickFind {
 
   private int[] id;
+  private int[] ThisVarIsTooLongOrMaybeNot;
 
   public QuickFind(int N) {
     id = new int[N];
